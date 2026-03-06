@@ -1,0 +1,74 @@
+site_name: Solène Mathieu
+extra_css:
+- Stylesheets/extra.css
+theme:
+  name: material
+  language: fr
+  logo: assets/LOGO_SOLENE_RVB.svg
+  favicon: assets/favicon.png
+  font: 
+    text: Google Sans Code
+  palette:
+    scheme: smcouleurs
+    primary: custom
+    accent: custom
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.prune
+    - navigation.path
+    - content.tabs.link
+    - navigation.footer
+    - navigation.top
+  nav:
+  - "Accueil": Accueil.md
+  - "Graphisme": Graphisme.md
+  - "Photographie": Photographie.md
+extra:
+  social:
+    - icon: fontawesome/brands/instagram 
+      link: https://www.instagram.com/sm.graphisme/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/solène-mathieu-216337357/
+    - icon: fontawesome/brands/behance
+      link: https://www.behance.net/solnemathieu
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@sosonene0
+    - icon: fontawesome/brands/instagram 
+      link: https://www.instagram.com/sosonene0/
+  consent:
+    title: Vos préférences en matière de cookies
+    description: >-
+      Ce site utilise des cookies pour mesurer la fréquentation du site afin d'en améliorer le fonctionnement et, avec votre accord, pour améliorer votre expérience utilisateur. Libre à vous d'accepter, de refuser et de changer d'avis à tout moment.
+    actions:
+      - accept
+      - reject
+
+copyright:
+  Copyright &copy; 2026 Solène Mathieu /
+  <a href="#__consent">Cookies</a> /
+  <a href="https://solenemathieu.fr/mentions-légales">Mentions légales</a>
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+     alternate_style: true
+  - admonition
+  - pymdownx.details
+  - md_in_html
+  - attr_list
+  - pymdownx.blocks.caption
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+plugins:
+ - glightbox 

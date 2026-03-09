@@ -1,4 +1,5 @@
 site_name: Solène Mathieu
+site_url: http://solenemathieu.fr
 extra_css:
 - Stylesheets/extra.css
 theme:
